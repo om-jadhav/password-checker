@@ -1,4 +1,4 @@
-# 🔐 Password Security & Strength Checker (CLI Tool)
+# 🔐 Password Security & Complexity Checker (CLI Tool)
 
 A Python-based **Command Line Interface (CLI)** tool that evaluates password strength and checks whether a password has been exposed in known data breaches using the **Have I Been Pwned (HIBP) Passwords API**.  
 The tool follows security best practices by **hiding password input**, using **k-anonymity**, and providing **clear, actionable feedback**.
@@ -56,8 +56,7 @@ The tool follows security best practices by **hiding password input**, using **k
 ## 📦 Installation
 
 ### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/password-security-checker.git
+git clone https://github.com/your-username/password-checker.git
 cd password-security-checker
 
 ### 2️⃣ Install dependencies
@@ -66,13 +65,13 @@ pip install requests colorama
 ## ▶️ Usage
 
 Run the tool from the terminal:
-
+```bash
 python check_password.py
 
 
 You will be prompted to enter a password securely (input will be hidden).
 
-## 🧪 Sample Output
+🧪 Sample Output
 🔐 Password Security Analyzer
 
 📊 Strength Analysis
@@ -82,16 +81,16 @@ Suggestions:
  - Add a special character
 
 ✅ Password not found in known breaches.
-
+```
 ## 🔐 Security & Privacy
 
--- Passwords are never sent in plain text
+- Passwords are never sent in plain text
 
--- Only the first 5 characters of the SHA-1 hash are sent to the API
+- Only the first 5 characters of the SHA-1 hash are sent to the API
 
--- Full password hash never leaves the local machine
+- Full password hash never leaves the local machine
 
--- Logged passwords are masked, not stored in plain text
+- Logged passwords are masked, not stored in plain text
 
 ## 📝 Logging Format
 
@@ -104,27 +103,27 @@ Log file uses UTF-8 encoding to safely support Unicode characters.
 
 ## 📚 Learning Outcomes
 
-Implemented secure password handling in CLI applications
+- Implemented secure password handling in CLI applications
 
-Used real-world cybersecurity APIs
+- Used real-world cybersecurity APIs
 
-Applied regex for password policy enforcement
+- Applied regex for password policy enforcement
 
-Handled Unicode encoding issues on Windows
+- Handled Unicode encoding issues on Windows
 
-Improved CLI UX with colors and structured output
+- Improved CLI UX with colors and structured output
 
 ## 🔮 Future Enhancements
 
---strength-only or --breach-only flags
+- --strength-only or --breach-only flags
 
-Password strength meter bar
+- Password strength meter bar
 
-Export results to CSV/JSON
+- Export results to CSV/JSON
 
-GUI or Web version (Flask)
+- GUI or Web version (Flask)
 
-Configurable password policies
+- Configurable password policies
 
 ## 👨‍💻 Author
 
