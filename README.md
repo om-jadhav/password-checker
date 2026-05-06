@@ -127,7 +127,7 @@ Log file uses UTF-8 encoding to safely support Unicode characters.
 
 ## 👨‍💻 Author
 
-Om Jadhav
+Om Jadhav |
 Computer Engineering Student | Cybersecurity Enthusiast
 Feel free to connect and contribute!
 
